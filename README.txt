@@ -1,10 +1,3 @@
-**Team**
-Prathibha Datta Kumar [1000912551]
-Prathyusha Thummaluru [1000915829]
-Gowtham Sathiyanarayanan [1000991932]
-Ram Siddarth Manickam [1000992288]
-**Team**
-
 **Project**
 #6  Network Flow: Resource Allocation and Project Scheduling
 **Project**
