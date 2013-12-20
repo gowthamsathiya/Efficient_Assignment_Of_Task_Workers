@@ -1,0 +1,16 @@
+
+EK Assignments: 
+Task T1 --> W1
+Task T2 --> W6
+Task T4 --> W5
+Task T5 --> W3
+Task T6 --> W2
+EK Assignments 
+
+FF Assignments: 
+Task T1 --> W1
+Task T2 --> W6
+Task T4 --> W5
+Task T5 --> W3
+Task T6 --> W2
+FF Assignments

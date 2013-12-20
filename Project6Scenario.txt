@@ -1,0 +1,46 @@
+6 Network Flow: Resource Allocation and Project
+Scheduling
+In this project showcases the power of network 
+ow algorithms by allowing you to
+solve three different yet related problems. Evaluate each of the problem for both
+Ford-Fulkerson and Edmond-Karp algorithms.
+
+6.1 Simple Resource Allocation via Maximum Bipartite Match-
+ing
+You are given a set of n tasks and m resources (or people). Each task can be completed
+by a single person. For each task, the subset of workers qualiffed to perform it are
+also provided to you. For each person, you are also provided with a maximum number
+of projects he/she can work on. Your objective is to find an assignment of tasks to
+people such that as many jobs are completed and no person is overloaded. Model this
+as a maximum bipartite graph matching problem and solve it.
+
+6.2 Resource Allocation with Constraints
+Here is a slightly more complex version of the problem. The setting is similar to above.
+For each person we are provided with a bound [a,b] which means that the person has
+to work atleast 'a' tasks and atmost 'b' tasks. Similarly, each task is also provided
+with a bound [c,d] which means it requires atleast 'c' workers and atmost 'd' workers.
+We also know which persons are eligible to work on which projects. Your objective is
+to find an assignment such that as many tasks are completed while not violating the
+resource constraints.
+
+6.3 Task Scheduling with Profit Constraints
+Here is yet another variant. Let us forget about the people and focus only on the
+tasks. We are provided with a bunch of tasks. Each task ti has a profit pi associated
+with it. If pi > 0 then we make a profit while if pi < 0 we lose money. To make things
+harder, we are also provided with some constraints within projects. Intuitively, model
+the problem as a graph where each task is a node. An edge exists between tasks ti
+and tj if tj is a prerequisite of ti. In other words, if we want to do ti , we must also do
+tj . Your objective is to identify a subset of tasks such that your profit is maximized
+and all the inter-dependencies are satisfied.
+
+Input/Output Format: For the first two problems, the input is specified as two
+files. One for workers and one for tasks. The first line of workers file stores the total
+number of workers followed by a triple <workerid, min tasks, max tasks>. Of course
+for problem 1, min task=max task. The first line of task file specifies the total number
+of tasks followed by a tuple <task id, min requirement, max requirement, list of quali-
+fied worker ids>. For the third project, the input is provided as follows. The first line
+provides the total number of tasks. The subsequent line describe each task per line as
+a tuple <task id, task profit, list of projects dependent on>. The last parameter can
+be empty! The output consists of one line per task (ordered by task id) where you
+specify the task id followed by the resource allocated. For the final problem, the list
+of tasks chosen (ordered by id) sufices.

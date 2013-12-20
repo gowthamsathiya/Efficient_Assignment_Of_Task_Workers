@@ -1,0 +1,23 @@
+--- FF 6.2 Assignments: ---
+
+Task T6 -->W2 
+Task T4 -->W5 W4 
+Task T5 -->W5 W3 
+Task T2 -->W6 
+Task T3 -->W5 W3 
+Task T1 -->W2 W1 
+--- FF 6.2 Assignments ---
+
+Total Time Taken to complete 6.2 FF :431 ms
+
+--- EK 6.2 Assignments: ---
+
+Task T6 -->W2 
+Task T4 -->W5 W4 
+Task T5 -->W5 W3 
+Task T2 -->W6 W5 
+Task T3 -->W3 
+Task T1 -->W2 W1 
+--- EK 6.2 Assignments ---
+
+Total Time Taken to complete 6.2 EK :564 ms

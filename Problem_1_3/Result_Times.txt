@@ -1,0 +1,14 @@
+
+--- E-K  ---
+ 6.1 EK : 183 ms
+ Total Time Taken to complete 6.1 E-K :334 ms
+ 6.3 EK : 25ms
+ Total Time Taken to complete 6.3 E-K :149 ms
+--- E-K  ---
+
+--- F-F  ---
+ 6.1 FF : 214 ms
+ Total Time Taken to complete 6.1 F-F :378 ms
+ 6.3 FF :22ms
+ Total Time Taken to complete 6.3 F-F :123 ms
+--- F-F  ---

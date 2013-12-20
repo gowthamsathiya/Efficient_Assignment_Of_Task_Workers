@@ -1,0 +1,7 @@
+EK Tasks Chosen and Profit: 
+6.3: Tasks Chosen: ['1', '4']
+6.3: Total Profit: 9
+
+FF Tasks Chosen and Profit: 
+6.3: Tasks Chosen: ['1', '4']
+6.3: Total Profit: 9
